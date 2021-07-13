@@ -1,8 +1,5 @@
-# import pandas as pd
-# from distributed import Client
-# client = Client(n_workers=2, threads_per_worker=1, processes=False)
 import pandas as pd
-# from dask import dataframe as dd
+
 
 import timeit
 pd.set_option('mode.chained_assignment', None)
